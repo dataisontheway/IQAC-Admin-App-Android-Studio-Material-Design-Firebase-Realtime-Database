@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="info.androidhive.navigationdrawer.activity.PdfActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="January"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/januarypdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_january"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_january"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="February"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/februarypdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_february"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_february"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="March"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/marchpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_march"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_march"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="April"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/aprilpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_april"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_april"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="May"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/maypdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_may"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_may"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="June"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/junepdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_june"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_june"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="July"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/julypdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_july"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_july"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="August"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/augustpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_august"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_august"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="September"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/septemberpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_september"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_september"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="October"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/octoberpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_october"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_october"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="November"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/novemberpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_november"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_november"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="December"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:lineSpacingMultiplier="1.5"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content" />
+
+                            <EditText
+                                android:id="@+id/decemberpdf"
+                                android:padding="12dp"
+                                android:textSize="13sp"
+                                android:layout_marginTop="12dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Pdf Link Here"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="right">
+
+                            <Button
+                                android:id ="@+id/button_submit_december"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Submit"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                />
+
+                            <Button
+                                android:id="@+id/button_clear_december"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Clear"
+                                android:padding="15dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginLeft="100dp"
+                                />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

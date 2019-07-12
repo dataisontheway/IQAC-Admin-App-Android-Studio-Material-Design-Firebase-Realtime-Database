@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.LoginActivity">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView android:src="@drawable/clglogo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_rect"
+                    android:drawableLeft="@drawable/icon_person"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/icon_person"
+                    android:hint="Email"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#AEFFFFFF"
+                    android:textSize="15sp" />
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_rect"
+                    android:drawableLeft="@drawable/icon_password"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/icon_password"
+                    android:hint="Password"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#AEFFFFFF"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/email_sign_in_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btnsignin_gradient"
+                    android:text="sign in"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

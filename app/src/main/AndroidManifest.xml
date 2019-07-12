@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.navigationdrawer">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.NotificationsActivity"></activity>
+        <activity android:name=".activity.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:label="Admin Chat" android:name=".activity.ChatActivity" />
+        <activity android:name=".activity.ChatStartActivity" />
+        <activity
+            android:name=".activity.SaturdayActivity"
+            android:label="Saturday" />
+        <activity
+            android:name=".activity.FridayActivity"
+            android:label="Friday" />
+        <activity
+            android:name=".activity.ThuActivity"
+            android:label="Thursday" />
+        <activity
+            android:name=".activity.WedActivity"
+            android:label="Wednesday" />
+        <activity
+            android:name=".activity.TueActivity"
+            android:label="Tuesday" />
+        <activity
+            android:name=".activity.MonActivity"
+            android:label="Monday" />
+        <activity
+            android:name=".activity.SunActivity"
+            android:label="Sunday" />
+        <activity
+            android:name=".activity.PdfActivity"
+            android:label="Pdf" />
+        <activity
+            android:name=".activity.NewsActivity"
+            android:label="News" />
+        <activity
+            android:name=".activity.EventsActivity"
+            android:label="Events" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:label="@string/activity_title_privacy_policy" />
+    </application>
+
+</manifest>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="info.androidhive.navigationdrawer.activity.EventsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- center -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgsun"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_sunday_daily_calendar_page" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgtue"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_tuesday_daily_calendar_page" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgfri"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_friday_daily_calendar_page" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+            </LinearLayout>
+
+            <!-- ........................................................... -->
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgmon"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_monday_calendar_page" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgthu"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_thursday_calendar_daily_page_interface_symbol" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+            </LinearLayout>
+
+            <!-- ............................................................ -->
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgwed"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_wednesday_calendar_daily_page" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+                <!-- card design start -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#5800A0"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="85dp"
+                        android:layout_height="105dp"
+                        app:cardBackgroundColor="@color/bgcard"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgsat"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:background="@drawable/circlebg"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_saturday_calendar_daily_page_interface_symbol" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </android.support.v7.widget.CardView>
+                <!-- card design end -->
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
