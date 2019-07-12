@@ -19,8 +19,10 @@ This app is developed for admin to manage College Events, News, Contacts, Messag
 9. Manage Events
 10. Send Push Notifications
 
-## Screenshots
+## Some Screenshots
 
 ![Screenshot](https://1.bp.blogspot.com/-e3Pwv6bG8Jg/XSggclYi8SI/AAAAAAAAAF4/mQOBhtTSv2sGIHcvmX4TIoB8yx5EUmA5wCEwYBhgL/s200/web-build_2019-07-10T22_26_22.391Z_5b7g_walleye-28-en_US-portrait_artifacts_2.png)
 ![Screenshot](https://1.bp.blogspot.com/-uqEGjCAcBfE/XSggmVVU21I/AAAAAAAAAGA/UUgV_V-u99oEWWbNFNojYEHshWGv5KR2QCEwYBhgL/s200/web-build_2019-07-10T22_40_09.622Z_da26_walleye-28-en_US-portrait_artifacts_1.png)
 ![Screenshot](https://1.bp.blogspot.com/-YqTBNgIVbiw/XSgg1y6ZUiI/AAAAAAAAAGE/qKgQ_MMcVcwA0P9ZGlj6afTs-Xwlm_2MACEwYBhgL/s200/web-build_2019-07-10T22_40_09.622Z_da26_walleye-28-en_US-portrait_artifacts_25.png)
+
+For more screenshots [Click Here](https://loyaldeveloper.blogspot.com/2019/07/iqac-admin-app-android-studio-material-design-firebase-realtime-database.html).
